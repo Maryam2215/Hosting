@@ -7,7 +7,7 @@ ALLOWED_HOSTS = [os.environ['WEBSITE_HOSTNAME']]
 CSRF_TRUSTED_ORIGINS = ['HTTPS://'+os.environ.get[' RENDER_EXTERNAL_HOSTNAME']]
 
 DEBUG = False
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = os.environ['MY_SECRET']
 
 
 MIDDLEWARE = [
